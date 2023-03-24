@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T07:36:35 MDT" name="Suite" finished-at="2023-03-19T07:36:41 MDT" duration-ms="5995">
+    <groups>
+      <group name="Login">
+        <method signature="NOPCommerce.NavigatetoPage()[pri:0, instance:Assignment.NOPCommerce@54422e18]" name="NavigatetoPage" class="Assignment.NOPCommerce"/>
+        <method signature="NOPCommerce.LogIn()[pri:1, instance:Assignment.NOPCommerce@54422e18]" name="LogIn" class="Assignment.NOPCommerce"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2023-03-19T07:36:35 MDT" name="Test" finished-at="2023-03-19T07:36:35 MDT" duration-ms="10">
+    </test> <!-- Test -->
+    <test started-at="2023-03-19T07:36:35 MDT" name="Classes" finished-at="2023-03-19T07:36:41 MDT" duration-ms="5969">
+      <class name="Assignment.NOPCommerce">
+        <test-method is-config="true" signature="ExtentR()[pri:0, instance:Assignment.NOPCommerce@54422e18]" started-at="2023-03-19T07:36:35 MDT" name="ExtentR" finished-at="2023-03-19T07:36:35 MDT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentR -->
+        <test-method signature="NavigatetoPage()[pri:0, instance:Assignment.NOPCommerce@54422e18]" started-at="2023-03-19T07:36:35 MDT" name="NavigatetoPage" finished-at="2023-03-19T07:36:38 MDT" duration-ms="2404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoPage -->
+        <test-method signature="LogIn()[pri:1, instance:Assignment.NOPCommerce@54422e18]" started-at="2023-03-19T07:36:38 MDT" name="LogIn" finished-at="2023-03-19T07:36:40 MDT" duration-ms="2067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method signature="DashboardOrders()[pri:2, instance:Assignment.NOPCommerce@54422e18]" started-at="2023-03-19T07:36:40 MDT" name="DashboardOrders" depends-on-groups="Login" finished-at="2023-03-19T07:36:41 MDT" duration-ms="1460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardOrders -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Assignment.NOPCommerce@54422e18]" started-at="2023-03-19T07:36:41 MDT" name="teardown" finished-at="2023-03-19T07:36:41 MDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Assignment.NOPCommerce -->
+    </test> <!-- Classes -->
+  </suite> <!-- Suite -->
+</testng-results>
